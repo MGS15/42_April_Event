@@ -157,6 +157,7 @@ void	print(char **s)
 	int maxlen;
 	
 	maxlen = longest(s);
+	i = -1;
 	while (++i < maxlen + 4)
 		printf("*");
 	printf("\n");
