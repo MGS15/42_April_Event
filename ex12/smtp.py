@@ -1,7 +1,5 @@
 import smtplib, ssl
 from getpass import getpass
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 import imghdr
 from email.message import EmailMessage
 
