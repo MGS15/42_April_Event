@@ -1,1 +1,1 @@
-main(c,v)char**v;{return c==3?v[2][-1]=32,puts(v[1]),2:0;}
+main(c,v)char**v;{exit(c==3?v[2][-1]=32,puts(v[1]),2:0);}
